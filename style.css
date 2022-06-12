@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -12,6 +15,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: rgb(17, 17, 17);
 }
 
 
@@ -21,6 +25,69 @@
     align-items: center;
     width: 340px;
     height: 480px;
-    border: solid 2px rgb(94, 109, 240);
+    border: solid 2px rgb(18, 27, 104);
     border-radius: 14px;
+    background: rgb(73, 107, 255);
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    margin-top: 9px;
+    margin-bottom: 6px;
+}
+
+
+.display{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgba(91, 146, 143, 0.904);
+    align-items: center;
+    width: 300px;
+    height: 60px;  
+    border: solid 3px #fff;   
+    border-radius: 8px;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+    margin-top: 14px;
+    margin-bottom: 16px;
+    width: 300px;
+    height: 360px;
+    border: solid 2px grey;
+    border-radius: 8px;
+}
+
+.btn{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(6, 20, 141);
+    width: 60px;
+    height: 60px;
+    border: solid 2px #fff;
+    border-radius: 8px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: bolder;
+    padding-top: 12px;
+}
+
+.btn-i{
+    width: 132px;
+}
+
+.oper{
+    background-color: rgb(139, 138, 138);
+}
+
+.btn-ac-ce{
+    background-color: rgb(252, 67, 67);
 }
